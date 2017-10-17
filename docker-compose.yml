@@ -1,0 +1,7 @@
+gatsby:
+  image: gatsby-docker:latest
+  ports:
+  - "8000:8000"
+  volumes:
+  - ./:/project
+  tty: true
